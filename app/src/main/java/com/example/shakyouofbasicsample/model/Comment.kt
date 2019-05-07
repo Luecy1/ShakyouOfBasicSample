@@ -3,8 +3,8 @@ package com.example.shakyouofbasicsample.model
 import java.util.Date
 
 interface Comment {
-    fun getId(): Int
-    fun getProductId(): Int
-    fun getText(): String
-    fun getPostedAt(): Date
+    var id: Int
+    var productId: Int
+    var text: String
+    var postedAt: Date
 }
